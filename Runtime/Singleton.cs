@@ -7,7 +7,7 @@ namespace JoyTeam.Core
     {
         public static T Instance { get; private set; }
 
-        private void Awake()
+        private void Start()
         {
             if (Instance != null)
             {
@@ -27,6 +27,6 @@ namespace JoyTeam.Core
             }
         }
 
-        public virtual void Init() { }
+        public virtual void Init() {}
     }
 }
