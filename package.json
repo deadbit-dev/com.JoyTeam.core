@@ -3,5 +3,12 @@
   "displayName": "Core",
   "version": "0.0.1",
   "unity": "2021.3",
-  "description": "JoyTeam Runtime implementation"
+  "author": "JoyTeam",
+  "description": "JoyTeam Runtime implementation",
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deadbit-dev/com.joyteam.core.git"
+  }
 }
