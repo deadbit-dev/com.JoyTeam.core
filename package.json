@@ -16,7 +16,7 @@
     {
       "displayName": "URPSetup",
       "description": "Tamplate for the Universal Render Pipeline",
-      "path": "Samples/URPSetup"
+      "path": "Samples~/URPSetup"
     }
   ]
 }
