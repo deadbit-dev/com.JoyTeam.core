@@ -1,0 +1,7 @@
+{
+  "name": "com.joyteam.core",
+  "displayName": "Core",
+  "version": "0.0.1",
+  "unity": "2021.3",
+  "description": "JoyTeam Runtime implementation"
+}
