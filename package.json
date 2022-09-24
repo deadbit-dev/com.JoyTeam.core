@@ -6,6 +6,7 @@
   "author": "JoyTeam",
   "description": "JoyTeam Runtime implementation",
   "dependencies": {
+    "com.unity.render-pipelines.universal": "12.1.7"
   },
   "repository": {
     "type": "git",
