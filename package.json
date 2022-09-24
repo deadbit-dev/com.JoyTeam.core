@@ -10,5 +10,11 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/deadbit-dev/com.joyteam.core.git"
+  },
+  "samples": [
+  {
+      "displayName": "URP Sample",
+      "description": "Contains sample for the Universal Render Pipeline",
+      "path": "Samples~/Sample"
   }
 }
