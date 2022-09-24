@@ -14,9 +14,9 @@
   },
   "samples": [
     {
-      "displayName": "URPSample",
-      "description": "Contains sample for the Universal Render Pipeline",
-      "path": "Samples~/URPSample"
+      "displayName": "URPSetup",
+      "description": "Tamplate for the Universal Render Pipeline",
+      "path": "Samples/URPSetup"
     }
   ]
 }
