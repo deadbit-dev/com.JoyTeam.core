@@ -6,7 +6,7 @@ namespace JoyTeam.Core
 {
     public static class Extentions
     {
-        private static IEnumerator ActionWithDelay(Action callback, float time)
+        public static IEnumerator ActionWithDelay(Action callback, float time)
         {
             yield return new WaitForSeconds(time);
             callback();
