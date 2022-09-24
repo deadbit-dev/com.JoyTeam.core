@@ -16,10 +16,11 @@ namespace JoyTeam.Core
             Cells = new T[width * height];
         }
 
-        public void AddValue(Vector2Int coord, T value)
+        public void SetValue(Vector2Int coord, T value)
         {
             if (coord.x < 0 || coord.x >= Width) throw new IndexOutOfRangeException();
             if (coord.y < 0 || coord.y >= Height) throw new IndexOutOfRangeException();
+
             Cells[Width * coord.y + coord.x] = value;
         }
         
@@ -27,6 +28,7 @@ namespace JoyTeam.Core
         {
             if (coord.x < 0 || coord.x >= Width) throw new IndexOutOfRangeException();
             if (coord.y < 0 || coord.y >= Height) throw new IndexOutOfRangeException();
+
             return Cells[Width * coord.y + coord.x];
         }
 
