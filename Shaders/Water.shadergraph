@@ -1535,7 +1535,7 @@
             "m_Id": "4bc7eb90b0464f6db74190c4b7ac2daf"
         },
         {
-            "m_Id": "511b6c7469a44907ba6e10a74f65f64d"
+            "m_Id": "37e4d7f65aaa41d797ff8bb3f6e9fde9"
         },
         {
             "m_Id": "a8862ebec4204cd08669029b2767ad20"
@@ -1544,19 +1544,19 @@
             "m_Id": "ffdb9e42ea0e4cd5af1028f599030796"
         },
         {
-            "m_Id": "70d3dc509ee34ff9b415f24fc5d9ec90"
+            "m_Id": "511b6c7469a44907ba6e10a74f65f64d"
         },
         {
             "m_Id": "02d898c952e14f11bf230404efc2d005"
         },
         {
-            "m_Id": "46d19a5582b743878100544a576eb720"
+            "m_Id": "70d3dc509ee34ff9b415f24fc5d9ec90"
         },
         {
             "m_Id": "4bf0d7fc28a14e3bbb48c26bc378c739"
         },
         {
-            "m_Id": "37e4d7f65aaa41d797ff8bb3f6e9fde9"
+            "m_Id": "46d19a5582b743878100544a576eb720"
         }
     ]
 }
@@ -1819,10 +1819,10 @@
     "m_Guid": {
         "m_GuidSerialized": "8525ccc5-387d-479f-8145-2dd139636590"
     },
-    "m_Name": "BrizColor",
+    "m_Name": "CoastColor",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "BrizColor",
-    "m_DefaultReferenceName": "_BrizColor",
+    "m_RefNameGeneratedByDisplayName": "CoastColor",
+    "m_DefaultReferenceName": "_CoastColor",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -1906,7 +1906,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "39bf419e7a8144499e1a217bc6ba2299",
     "m_Id": 0,
-    "m_DisplayName": "BrizColor",
+    "m_DisplayName": "CoastColor",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -2124,10 +2124,10 @@
     "m_Guid": {
         "m_GuidSerialized": "c80481ba-838c-40b2-a660-6fe633fadda4"
     },
-    "m_Name": "BrizOffset",
+    "m_Name": "CoastOffset",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "BrizOffset",
-    "m_DefaultReferenceName": "_BrizOffset",
+    "m_RefNameGeneratedByDisplayName": "CoastOffset",
+    "m_DefaultReferenceName": "_CoastOffset",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -5036,7 +5036,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "ead52c3285ec493ba615a7030a0931a3",
     "m_Id": 0,
-    "m_DisplayName": "BrizOffset",
+    "m_DisplayName": "CoastOffset",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",

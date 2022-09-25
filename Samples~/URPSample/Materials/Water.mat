@@ -49,6 +49,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _BrizOffset: 0.1
+    - _CoastOffset: 0.1
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RippleDensity: 5
@@ -58,8 +59,9 @@ Material:
     - _WaveSpeed: 0.2
     - _WaveStrength: 3
     m_Colors:
-    - _BaseColor: {r: 0, g: 1.8334413, b: 2, a: 1}
-    - _BrizColor: {r: 2.9705276, g: 4.0445657, b: 6.6289673, a: 0}
+    - _BaseColor: {r: 0, g: 2.6698596, b: 7.129739, a: 1}
+    - _BrizColor: {r: 3.6102583, g: 5.0833364, b: 8.599717, a: 0}
+    - _CoastColor: {r: 2.6400213, g: 3.3661418, b: 3.5648696, a: 1}
     - _Test: {r: 1, g: 1, b: 0, a: 0}
-    - _WaveColor: {r: 0.34021172, g: 0.74117255, b: 1.4142135, a: 1}
+    - _WaveColor: {r: 0, g: 1.6738008, b: 3.6029253, a: 1}
   m_BuildTextureStacks: []
