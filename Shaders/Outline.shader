@@ -11,8 +11,8 @@ Shader "Universal Render Pipeline/Outline"
         Tags
         { 
             "RenderPipeline" = "UniversalRenderPipeline"
-            "RenderType"="Transparent"
-            "Queue"="Transparent"
+            "RenderType" = "Transparent"
+            "Queue" = "Transparent"
         }
 
         Pass
@@ -29,7 +29,7 @@ Shader "Universal Render Pipeline/Outline"
 
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
 
-            #define UNITY_MATRIX_MVP   mul(UNITY_MATRIX_VP, UNITY_MATRIX_M)
+            #define UNITY_MATRIX_MVP mul(UNITY_MATRIX_VP, UNITY_MATRIX_M)
 
             struct MeshData
             {
@@ -63,4 +63,6 @@ Shader "Universal Render Pipeline/Outline"
             ENDHLSL
         }
     }
+
+    FallBack "Hidden/InternalErrorShader"
 }
