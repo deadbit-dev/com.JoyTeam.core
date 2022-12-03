@@ -1,4 +1,4 @@
-namespace JoyTeam.Core
+namespace JoyTeam.Core.DataType
 {
     public interface IGrid
     {

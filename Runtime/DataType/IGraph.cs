@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace JoyTeam.Core
+namespace JoyTeam.Core.DataType
 {
     public interface IGraph
     {

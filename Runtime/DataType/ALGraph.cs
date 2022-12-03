@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace JoyTeam.Core
+namespace JoyTeam.Core.DataType
 {
     /// <summary>
     /// Class <c>ALGraph</c> implementation <c>IGraph</c> throught adjacency list.

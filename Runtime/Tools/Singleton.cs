@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace JoyTeam.Core
+namespace JoyTeam.Core.Tools
 {
     [DisallowMultipleComponent]
     public abstract class Singleton<T> : MonoBehaviour where T : Singleton<T>
