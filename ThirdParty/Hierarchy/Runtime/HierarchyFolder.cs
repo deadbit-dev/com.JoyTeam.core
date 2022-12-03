@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Hierarchy
 {
-    [AddComponentMenu("Hierarchy 2/Hierarchy Folder", 0)]
+    [AddComponentMenu("Hierarchy/Hierarchy Folder", 0)]
     public class HierarchyFolder : MonoBehaviour
     {
         public enum FlattenMode

@@ -791,7 +791,7 @@ namespace Hierarchy
 
         internal static HierarchySettings CreateAssets()
         {
-            string path = EditorUtility.SaveFilePanelInProject("Save as...", "Hierarchy 2 Settings", "asset", "");
+            string path = EditorUtility.SaveFilePanelInProject("Save as...", "Hierarchy Settings", "asset", "");
             if (path.Length > 0)
             {
                 HierarchySettings settings = ScriptableObject.CreateInstance<HierarchySettings>();
@@ -808,7 +808,7 @@ namespace Hierarchy
 
         internal bool ImportFromJson()
         {
-            string path = EditorUtility.OpenFilePanel("Import Hierarchy 2 settings", "", "json");
+            string path = EditorUtility.OpenFilePanel("Import Hierarchy settings", "", "json");
             if (path.Length > 0)
             {
                 string json = string.Empty;
@@ -829,7 +829,7 @@ namespace Hierarchy
 
         internal TextAsset ExportToJson()
         {
-            string path = EditorUtility.SaveFilePanelInProject("Export Hierarchy 2 settings as...", "Hierarchy 2 Settings", "json", "");
+            string path = EditorUtility.SaveFilePanelInProject("Export Hierarchy settings as...", "Hierarchy 2 Settings", "json", "");
             if (path.Length > 0)
             {
                 string json = JsonUtility.ToJson(instance, true);
